@@ -1,0 +1,38 @@
+# robots.txt for Rash Aman Pest Control Kuwait
+# https://rashaman.netlify.app
+
+User-agent: *
+Allow: /
+
+# منع فهرسة الملفات الداخلية
+Disallow: /assets/
+Disallow: /*.json$
+Disallow: /admin/
+Disallow: /temp/
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Googlebot-Image
+User-agent: Googlebot-Image
+Allow: /
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# منع أدوات SEO الخبيثة
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Sitemap
+Sitemap: https://rashaman.netlify.app/sitemap.xml
